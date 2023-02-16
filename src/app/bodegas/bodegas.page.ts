@@ -25,7 +25,7 @@ export class BodegasPage implements OnInit {
       this.searcherdBodega=this.bodegas;
     })
   }
-  seachBodega({event}: { event: any }){
+  seachBodega(event: any ){
     const text=event.target.value;
     this.searcherdBodega=this.bodegas
     if(text&&text.trim()!=''){
@@ -53,4 +53,8 @@ export class BodegasPage implements OnInit {
     await modal.present();
   }
 
+  handleRefresh(event:any) {
+    this.seachBodega(event)
+    event.target.complete();
+  };
 }

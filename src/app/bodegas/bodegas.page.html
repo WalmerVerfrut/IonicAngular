@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-searchbar placeholder="Buscar Bodega" animated (ionChange)="seachBodega( {event : $event})">
+  <ion-searchbar placeholder="Buscar Bodega" animated (ionChange)="seachBodega( $event)">
 <!--  <ion-searchbar placeholder="Buscar Bodega">-->
   </ion-searchbar>
   <ion-list>
@@ -15,5 +15,11 @@
       </ion-card>
     </ion-item>
   </ion-list>
-
+  <ion-refresher slot="fixed" (ionRefresh)="handleRefresh($event)" pullingIcon="chevron-down-circle-outline"
+                   pullingText="Pull to refresh"
+                   refreshingSpinner="circular"
+                   refreshingText="Consultando bodegas and zonas">
+    <ion-refresher-content>
+    </ion-refresher-content>
+  </ion-refresher>
 </ion-content>
