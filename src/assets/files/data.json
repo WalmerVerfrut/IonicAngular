@@ -1,0 +1,522 @@
+{
+  "data": [
+    {
+      "CodigoTrabajador": "000018",
+      "DATOTRABAJADOR": "RUFINO PANTA ALEXIS",
+      "DNI": "48935968",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000029",
+      "DATOTRABAJADOR": "CARREÑO PACHERRES JORGE LUIS",
+      "DNI": "47013221",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000036",
+      "DATOTRABAJADOR": "OLIVARES JUAREZ LUIS MIGUEL",
+      "DNI": "45682964",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000037",
+      "DATOTRABAJADOR": "QUISPE NAVARRO LIZARDO",
+      "DNI": "42693400",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000055",
+      "DATOTRABAJADOR": "IPANAQUE VIERA HENRY",
+      "DNI": "44040239",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000064",
+      "DATOTRABAJADOR": "PULACHE PACHERRES SANTOS",
+      "DNI": "45573267",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000080",
+      "DATOTRABAJADOR": "JUAREZ PULACHE HELDER MERCEDES",
+      "DNI": "44689626",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000110",
+      "DATOTRABAJADOR": "ESPINOZA ELIAS EMILIO",
+      "DNI": "02719884",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000115",
+      "DATOTRABAJADOR": "SIANCAS YOVERA JOSE FERNANDO",
+      "DNI": "46009559",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000119",
+      "DATOTRABAJADOR": "GIRON PANTA JOSE FRANCISCO",
+      "DNI": "73306907",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000122",
+      "DATOTRABAJADOR": "SUAREZ PULACHE SEGUNDO ANGELO",
+      "DNI": "80342690",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000128",
+      "DATOTRABAJADOR": "FARFAN VIERA JOSE ALEXANDER",
+      "DNI": "45792216",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000133",
+      "DATOTRABAJADOR": "SILVA GONCES ERNESTO",
+      "DNI": "43209831",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000135",
+      "DATOTRABAJADOR": "SILVA PACHERRES JOSE ALVINO",
+      "DNI": "79300092",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000148",
+      "DATOTRABAJADOR": "NAVARRO SIANCAS JOSE HUMBERTO",
+      "DNI": "42369754",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000149",
+      "DATOTRABAJADOR": "PEÑA RIVERA CALIXTRO",
+      "DNI": "42533454",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000154",
+      "DATOTRABAJADOR": "MONTERO FERNANDEZ LUIS ALBERTO",
+      "DNI": "03648655",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000154",
+      "DATOTRABAJADOR": "SIANCAS VILLEGAS NEPTALI",
+      "DNI": "02688745",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000155",
+      "DATOTRABAJADOR": "YARLEQUE OLIVARES ALEXANDER",
+      "DNI": "43993137",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000168",
+      "DATOTRABAJADOR": "VIERA ESPINOZA JAVIER",
+      "DNI": "46527768",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000170",
+      "DATOTRABAJADOR": "VIERA VILCHEZ HUMBERTO",
+      "DNI": "02860945",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "0"
+    },
+    {
+      "CodigoTrabajador": "000173",
+      "DATOTRABAJADOR": "YARLEQUE NUÑEZ AGUSTIN",
+      "DNI": "02688701",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000182",
+      "DATOTRABAJADOR": "FARFAN MONDRAGON GERARDO",
+      "DNI": "02808722",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000197",
+      "DATOTRABAJADOR": "RAYMUNDO CRISANTO JUAN CARLOS",
+      "DNI": "73306589",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000236",
+      "DATOTRABAJADOR": "VIERA CRUZ FREDY",
+      "DNI": "40849239",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000242",
+      "DATOTRABAJADOR": "VIERA VIERA EDWIN AUGUSTO",
+      "DNI": "47385543",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000257",
+      "DATOTRABAJADOR": "ANCAJIMA DOMINGUEZ JOSE ELADIO",
+      "DNI": "73270745",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000274",
+      "DATOTRABAJADOR": "FARFAN QUISPE HIPOLITO",
+      "DNI": "43871381",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000296",
+      "DATOTRABAJADOR": "HERRERA CORDOVA HERMES",
+      "DNI": "43429407",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000313",
+      "DATOTRABAJADOR": "SUAREZ VILLEGAS ANGELA XIOMARA",
+      "DNI": "73647095",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000317",
+      "DATOTRABAJADOR": "MECA MOSCOL JESUS RUFINO",
+      "DNI": "02775616",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000401",
+      "DATOTRABAJADOR": "VIERA PACHERREZ MARLENY",
+      "DNI": "02849859",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000405",
+      "DATOTRABAJADOR": "JUAREZ MONDRAGON DOMINGO",
+      "DNI": "46353254",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "0"
+    },
+    {
+      "CodigoTrabajador": "000423",
+      "DATOTRABAJADOR": "MORALES GIRON YANINA",
+      "DNI": "73273326",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000427",
+      "DATOTRABAJADOR": "GONCES RUFINO HILDE",
+      "DNI": "02883108",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000472",
+      "DATOTRABAJADOR": "RIVAS FERNANDEZ ROSENDO",
+      "DNI": "80221601",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000516",
+      "DATOTRABAJADOR": "QUISPE MIRANDA IRWIN SAMIR",
+      "DNI": "73270750",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000520",
+      "DATOTRABAJADOR": "SUAREZ PULACHE TEODORA",
+      "DNI": "80363109",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000570",
+      "DATOTRABAJADOR": "GONCES GIRON JUAN",
+      "DNI": "02815302",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000584",
+      "DATOTRABAJADOR": "CHINCHAY CARHUAPOMA MARCOS",
+      "DNI": "80511017",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000597",
+      "DATOTRABAJADOR": "YARLEQUE FLORES TEOFILO",
+      "DNI": "41129687",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000664",
+      "DATOTRABAJADOR": "VIERA MONDRAGON DARLY",
+      "DNI": "48071841",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "0"
+    },
+    {
+      "CodigoTrabajador": "000675",
+      "DATOTRABAJADOR": "PAZ LACHIRA MARIA PASCUALA",
+      "DNI": "02813958",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000677",
+      "DATOTRABAJADOR": "MONDRAGON PACHERRES YESENIA",
+      "DNI": "42535900",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000694",
+      "DATOTRABAJADOR": "SOSA VILLEGAS JULIO CESAR",
+      "DNI": "44978689",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000739",
+      "DATOTRABAJADOR": "YARLEQUE OLIVARES CARLOS ALFREDO",
+      "DNI": "47530553",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000741",
+      "DATOTRABAJADOR": "QUISPE YOVERA ELVER JOSE",
+      "DNI": "41595848",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000777",
+      "DATOTRABAJADOR": "VIERA NUÑEZ NANCY",
+      "DNI": "02891342",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000786",
+      "DATOTRABAJADOR": "CARMEN CARDENAS MERCEDES LUZ",
+      "DNI": "02869873",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000793",
+      "DATOTRABAJADOR": "ALAMA IPANAQUE ERIKA",
+      "DNI": "41652920",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000826",
+      "DATOTRABAJADOR": "PULACHE JIMENEZ MARIA MARIBEL",
+      "DNI": "42200492",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000840",
+      "DATOTRABAJADOR": "JUAREZ PULACHE SANTOS ELIBERTO",
+      "DNI": "02872614",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000935",
+      "DATOTRABAJADOR": "INGA INGA JUAN",
+      "DNI": "44389769",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "001027",
+      "DATOTRABAJADOR": "MONDRAGON PULACHE GRIMBERG DANTE",
+      "DNI": "48352718",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "001101",
+      "DATOTRABAJADOR": "QUISPE GIRON CESAR AUGUSTO",
+      "DNI": "44679098",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "001137",
+      "DATOTRABAJADOR": "DOMINGUEZ RIVAS MARTIN",
+      "DNI": "46895217",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "001147",
+      "DATOTRABAJADOR": "QUISPE PULACHE DE IPANAQUE JULIT DE JESUS",
+      "DNI": "47859622",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "001244",
+      "DATOTRABAJADOR": "PACHERRES NAVARRO EDGAR",
+      "DNI": "46546165",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "0"
+    },
+    {
+      "CodigoTrabajador": "001339",
+      "DATOTRABAJADOR": "MIRANDA NAVARRO HECTOR",
+      "DNI": "80339961",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "001351",
+      "DATOTRABAJADOR": "RIVAS CHERO DEIVY WILLIAM",
+      "DNI": "45878039",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "001610",
+      "DATOTRABAJADOR": "NUÑEZ SUAREZ ALEX ALDAIR",
+      "DNI": "70357869",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "001654",
+      "DATOTRABAJADOR": "NAVARRO JUAREZ MARIA ROSANA",
+      "DNI": "44682088",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "002169",
+      "DATOTRABAJADOR": "VILCHEZ VILCHEZ JUAN CARLOS",
+      "DNI": "46209243",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "002252",
+      "DATOTRABAJADOR": "FLORES CEDANO JUAN CARLOS",
+      "DNI": "43839815",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "002269",
+      "DATOTRABAJADOR": "CHERO SILVA JOSE VENANCIO",
+      "DNI": "02697084",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "002389",
+      "DATOTRABAJADOR": "FERNANDEZ MOSCOL ELVIS ANIBAL",
+      "DNI": "47194005",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "002432",
+      "DATOTRABAJADOR": "CIELO TABOADA JOSE CALIXTO",
+      "DNI": "02868008",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "002641",
+      "DATOTRABAJADOR": "NIMA SUAREZ YUNE MELIZA",
+      "DNI": "46089615",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "002716",
+      "DATOTRABAJADOR": "NIMA HUERTAS MARIA YOFANI",
+      "DNI": "71121604",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "0"
+    },
+    {
+      "CodigoTrabajador": "002885",
+      "DATOTRABAJADOR": "REIMUNDO ARISMENDEZ MARGARITA REYNA",
+      "DNI": "45601991",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000012",
+      "DATOTRABAJADOR": "SUAREZ PACHERRES ALEX ALBERTO",
+      "DNI": "73271766",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000024",
+      "DATOTRABAJADOR": "ANCAJIMA RAYMUNDO ELAUTERIO",
+      "DNI": "02829979",
+      "IdEmpresa": "9",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000035",
+      "DATOTRABAJADOR": "SIANCAS PULACHE LUIS WILSON",
+      "DNI": "47563705",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    },
+    {
+      "CodigoTrabajador": "000072",
+      "DATOTRABAJADOR": "GARCIA MAZA ALEX",
+      "DNI": "71120484",
+      "IdEmpresa": "14",
+      "IndicadorVigencia": "1"
+    }
+  ]
+}

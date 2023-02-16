@@ -1,0 +1,319 @@
+{
+  "data": [
+    {
+      "NOM_ZON": "ADMINISTRACION",
+      "COD_ZON": "X",
+      "COD_BOD": "BAD0001",
+      "NOM_BOD": "BODEGA ADMINISTRACION",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "ADMINISTRACION",
+      "COD_ZON": "X",
+      "COD_BOD": "BAD0001",
+      "NOM_BOD": "BODEGA ADMINISTRACION",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PIURA",
+      "COD_ZON": "P",
+      "COD_BOD": "BCM0001",
+      "NOM_BOD": "BODEGA CAMPAMENTO",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "ADMINISTRACION",
+      "COD_ZON": "X",
+      "COD_BOD": "BEN0001",
+      "NOM_BOD": "BODEGA ENFERMERIA",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "ADMINISTRACION",
+      "COD_ZON": "X",
+      "COD_BOD": "BEN0001",
+      "NOM_BOD": "BODEGA ENFERMERIA",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "OPERACIONES CAMPO",
+      "COD_ZON": "D",
+      "COD_BOD": "BGL1012",
+      "NOM_BOD": "BODEGA ALMACEN GENERAL",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "OPERACIONES CAMPOS",
+      "COD_ZON": "D",
+      "COD_BOD": "BGL1012",
+      "NOM_BOD": "BODEGA ALMACEN GENERAL",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PIURA",
+      "COD_ZON": "P",
+      "COD_BOD": "BME0001",
+      "NOM_BOD": "BODEGA MAT EXPORTACION UVAS",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "PLANTA VERFRUT BANANO",
+      "COD_ZON": "V",
+      "COD_BOD": "BME0001",
+      "NOM_BOD": "BODEGA MAT EXPORTACION",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PIURA",
+      "COD_ZON": "P",
+      "COD_BOD": "BME0002",
+      "NOM_BOD": "BODEGA MAT EXPORTACION PACKING",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "PLANTA VERFRUT ARANDANO",
+      "COD_ZON": "Y",
+      "COD_BOD": "BME0002",
+      "NOM_BOD": "BODEGA MAT EXPORTACION",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PIURA",
+      "COD_ZON": "P",
+      "COD_BOD": "BME0003",
+      "NOM_BOD": "BODEGA MAT EXPORTACION FRIO",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "CENTRO ACOPIO Y ENFRIAMIENTO",
+      "COD_ZON": "E",
+      "COD_BOD": "BME0003",
+      "NOM_BOD": "BODEGA MAT EXPORTACION",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PIURA",
+      "COD_ZON": "P",
+      "COD_BOD": "BME0004",
+      "NOM_BOD": "BODEGA MAT EXPORTACIONES LIMONES",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "PUNTA ARENAS",
+      "COD_ZON": "P",
+      "COD_BOD": "BME0008",
+      "NOM_BOD": "BODEGA MAT EXPORTACION",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PLANTA VERFRUT ARANDANO",
+      "COD_ZON": "Y",
+      "COD_BOD": "BME0011",
+      "NOM_BOD": "BODEGA MAT EXPORTACION PACKING",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "GLOBAL VERFRUT",
+      "COD_ZON": "G",
+      "COD_BOD": "BME0012",
+      "NOM_BOD": "BODEGA TERCEROS",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "GLOBAL RAPEL",
+      "COD_ZON": "S",
+      "COD_BOD": "BME1004",
+      "NOM_BOD": "BODEGA EMPAFRUT",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "OLIVAR BAJO",
+      "COD_ZON": "O",
+      "COD_BOD": "BMG0001",
+      "NOM_BOD": "BODEGA OLIVAR BAJO",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "LOS VIEJITOS",
+      "COD_ZON": "L",
+      "COD_BOD": "BMG0003",
+      "NOM_BOD": "BODEGA LOS VIEJITOS",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "ORGANICOS SAN RAFAEL",
+      "COD_ZON": "R",
+      "COD_BOD": "BMG0004",
+      "NOM_BOD": "BODEGA ORGANICOS SAN RAFAEL",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "SANTA ROSA",
+      "COD_ZON": "S",
+      "COD_BOD": "BMG0005",
+      "NOM_BOD": "BODEGA SANTA ROSA",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "SANTA AMALIA",
+      "COD_ZON": "A",
+      "COD_BOD": "BMG0006",
+      "NOM_BOD": "BODEGA SANTA AMALIA",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PLANTA VERFRUT BANANO",
+      "COD_ZON": "V",
+      "COD_BOD": "BMG0007",
+      "NOM_BOD": "BODEGA PLANTA VERFRUT BANANOS",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PUNTA ARENAS",
+      "COD_ZON": "P",
+      "COD_BOD": "BMG0008",
+      "NOM_BOD": "BODEGA PUNTA ARENA",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "SANTA  ROSA 2",
+      "COD_ZON": "C",
+      "COD_BOD": "BMG0009",
+      "NOM_BOD": "BODEGA SANTA ROSA 2",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PLANTA VERFRUT ARANDANO",
+      "COD_ZON": "Y",
+      "COD_BOD": "BMG0010",
+      "NOM_BOD": "BODEGA PLANTA VERFRUT ARANDANOS",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "PLANTA VERFRUT BANANO",
+      "COD_ZON": "V",
+      "COD_BOD": "BMG0012",
+      "NOM_BOD": "BODEGA MAT EXPORTACION PACKING BANANOS",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "EL PAPAYO",
+      "COD_ZON": "E",
+      "COD_BOD": "BMG1001",
+      "NOM_BOD": "BODEGA EL PAPAYO",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "SAN VICENTE",
+      "COD_ZON": "V",
+      "COD_BOD": "BMG1002",
+      "NOM_BOD": "BODEGA SAN VICENTE",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "ALGARROBOS",
+      "COD_ZON": "A",
+      "COD_BOD": "BMG1003",
+      "NOM_BOD": "BODEGA ALGARROBO",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "LOS OLIVARES",
+      "COD_ZON": "O",
+      "COD_BOD": "BMG1004",
+      "NOM_BOD": "BODEGA LOS OLIVARES",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "PIURA",
+      "COD_ZON": "P",
+      "COD_BOD": "BMG1005",
+      "NOM_BOD": "BODEGA PLANTA RAPEL",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "APROA",
+      "COD_ZON": "B",
+      "COD_BOD": "BMG1006",
+      "NOM_BOD": "BODEGA APROA",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "TALLER GENERAL",
+      "COD_ZON": "T",
+      "COD_BOD": "BMG1007",
+      "NOM_BOD": "BODEGA TALLER GENERAL",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "OPERACIONES CAMPO",
+      "COD_ZON": "D",
+      "COD_BOD": "BMG1008",
+      "NOM_BOD": "BODEGA OPERACIONES CAMPO",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "OPERACIONES CAMPOS",
+      "COD_ZON": "D",
+      "COD_BOD": "BMG1008",
+      "NOM_BOD": "BODEGA OPERACIONES CAMPO",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "EL PAPAYO",
+      "COD_ZON": "E",
+      "COD_BOD": "BMG1009",
+      "NOM_BOD": "BODEGA LIMONES",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "PIURA",
+      "COD_ZON": "P",
+      "COD_BOD": "BMG1010",
+      "NOM_BOD": "BODEGA INFORMÁTICA",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "PIURA",
+      "COD_ZON": "P",
+      "COD_BOD": "BMG1011",
+      "NOM_BOD": "BODEGA CENTRAL QUIMICOS Y FERTILIZANTES",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "PLANTA VERFRUT BANANO",
+      "COD_ZON": "V",
+      "COD_BOD": "BMG1011",
+      "NOM_BOD": "BODEGA CENTRAL QUIMICOS Y FERTILIZANTES",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "OPERACIONES CAMPO",
+      "COD_ZON": "D",
+      "COD_BOD": "BPC1014",
+      "NOM_BOD": "BODEGA PRODUCCION CAMPO GENERAL",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "OPERACIONES CAMPOS",
+      "COD_ZON": "D",
+      "COD_BOD": "BPC1014",
+      "NOM_BOD": "BODEGA PRODUCCION CAMPO GENERAL",
+      "COD_EMP": "FORT"
+    },
+    {
+      "NOM_ZON": "OPERACIONES CAMPO",
+      "COD_ZON": "D",
+      "COD_BOD": "BRC1013",
+      "NOM_BOD": "BODEGA RIEGO CENTRAL",
+      "COD_EMP": "ARAP"
+    },
+    {
+      "NOM_ZON": "OPERACIONES CAMPOS",
+      "COD_ZON": "D",
+      "COD_BOD": "BRC1013",
+      "NOM_BOD": "BODEGA RIEGO CENTRAL",
+      "COD_EMP": "FORT"
+    }
+  ]
+}

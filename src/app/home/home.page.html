@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="row"></div>
+  <button type="button" class="btn btn-secondary" (click)="Toast('hola como estas')">Secondary</button>
+  <ion-button class ="btn " (click)="AlerTa('Desea confirmar borrar resgistro')" color="success"> boton navegacion 1</ion-button>
+  <ion-button class ="btn" [routerLink]="['/trabajador']"  color="success"> boton navegacion 1</ion-button>
+</ion-content>

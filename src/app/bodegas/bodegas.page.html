@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>bodegas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar placeholder="Buscar Bodega" animated (ionChange)="seachBodega( {event : $event})">
+<!--  <ion-searchbar placeholder="Buscar Bodega">-->
+  </ion-searchbar>
+  <ion-list>
+    <ion-item *ngFor="let bodega of searcherdBodega ">
+      <ion-card class="bg-primary" expand="block"   color="success"  mode="ios" (click)="detalle({bodega : bodega})">
+        <h4>{{bodega.NOM_ZON}} -- {{bodega.NOM_BOD}}</h4>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
