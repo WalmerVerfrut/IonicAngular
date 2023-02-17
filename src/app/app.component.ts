@@ -10,6 +10,7 @@ export class AppComponent {
     { title: 'Home', url: '/home', icon: 'home' },
     { title: 'trabajdor', url: '/trabajador', icon: 'person-remove' },
     { title: 'Bodegas', url: '/bodegas', icon: 'hourglass' },
+    { title: 'Coordenadas', url: '/mapacoordenadas', icon: 'map' },
   ];
   public labels = [];
   constructor(

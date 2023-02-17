@@ -18,7 +18,11 @@ const routes: Routes = [
   {
     path: 'bodegas',
     loadChildren: () => import('./bodegas/bodegas.module').then( m => m.BodegasPageModule)
-  }
+  },
+  {
+    path: 'mapacoordenadas',
+    loadChildren: () => import('./mapacoordenadas/mapacoordenadas.module').then( m => m.MapacoordenadasPageModule)
+  },
 ];
 
 @NgModule({

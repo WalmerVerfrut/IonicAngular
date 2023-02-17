@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>mapacoordenadas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <div class="container">
+    <div class="input-group mb-3">
+      <input type="text" id="latitud" class="form-control" placeholder="latitud" aria-label="latitud" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+      <input type="text" id="longitud" class="form-control" placeholder="longitud" aria-label="longitud" aria-describedby="basic-addon1">
+    </div>
+  </div>
+
+  <div id="map" class="mapa"></div>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoidmVyZnJ1dHBlcnUiLCJhIjoiY2wzNjRjdnlwMGMwejNrb3o4c2dzenB5ZyJ9.4bg-eMUfJTwhwJzLlfm7tw';
+    const map = new mapboxgl.Map({
+      container: 'map', // container ID
+// Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+      style: 'mapbox://styles/mapbox/streets-v12', // style URL
+      center: [-74.5, 40], // starting position [lng, lat]
+      zoom: 9 // starting zoom
+    });
+  </script>
+</ion-content>
