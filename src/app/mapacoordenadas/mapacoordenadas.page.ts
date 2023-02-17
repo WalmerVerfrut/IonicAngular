@@ -67,7 +67,7 @@ export class MapacoordenadasPage implements OnInit {
     this.clickHandleEvent();
     this.infowindow=new google.maps.infowindow();
     this.addMarker(position)
-    this.setInfoWindow(this.marker,this.label.titulo,this.label.subtitulo)
+    this.setInfoWindow(this.marker,this.label.titulo,this.label.subtitulo) // para mostrar un texto
   }
   clickHandleEvent() {
     this.map.addListener('click',(event:any)=>{
@@ -81,11 +81,14 @@ export class MapacoordenadasPage implements OnInit {
   addMarker(position:any){
     let latLng=new google.maps.LatLng(position.lat,position.lng)
     this.marker.setPosition(latLng)
-    this.map.panTo(position)
-    this.positionSet=position
+    this.map.panTo(position)  //centrar el mapa en la posicion que se le asigne
+    this.positionSet=position // guardar la variable
   }
 
 
+  private setInfoWindow(marker: any, titulo: string, subtitulo: string) {
+    
+  }
 }
 /*buildMap(){
    this.mapa=mapboxgl.Map;
