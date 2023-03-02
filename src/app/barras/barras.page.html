@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>barras</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content contentId="main">
+  <ion-segment value="custom" (ionChange)="mostrarfragmento($event)" scrollable="true" >
+    <ion-segment-button value="1" >
+      <ion-label>Home</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="2" >
+      <ion-label>Segment</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="3">
+      <ion-label>Buttons</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <ion-content *ngIf="item==='1'">
+    <app-segmento1></app-segmento1>
+  </ion-content>
+  <ion-content *ngIf="item==='2'">
+    <app-segmento2></app-segmento2>
+  </ion-content>
+  <ion-content *ngIf="item==='3'">
+    <h2>holo como estas</h2>
+  </ion-content>
+</ion-content>
+
+
+
+

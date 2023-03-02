@@ -8,13 +8,15 @@ import { MapacoordenadasPageRoutingModule } from './mapacoordenadas-routing.modu
 
 import { MapacoordenadasPage } from './mapacoordenadas.page';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import {GooglemapsModule} from "../googlemaps/googlemaps.module";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    MapacoordenadasPageRoutingModule
+    MapacoordenadasPageRoutingModule,
+    GooglemapsModule
   ],
   declarations: [MapacoordenadasPage],
   exports:[MapacoordenadasPage],

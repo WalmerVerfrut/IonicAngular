@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'mapacoordenadas',
     loadChildren: () => import('./mapacoordenadas/mapacoordenadas.module').then( m => m.MapacoordenadasPageModule)
   },
+  {
+    path: 'barras',
+    loadChildren: () => import('./barras/barras.module').then( m => m.BarrasPageModule)
+  }
 ];
 
 @NgModule({

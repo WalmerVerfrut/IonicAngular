@@ -2,11 +2,14 @@ import {Component, ElementRef, Inject, Input, OnInit, Renderer2, ViewChild} from
 import  * as mapboxgl  from 'mapbox-gl';
 import {DOCUMENT} from "@angular/common";
 import {MapaserviceService} from './mapaservice.service';
-import {Plugins} from '@capacitor/core';
 import {ModalController} from "@ionic/angular";
-import {LngLat} from "mapbox-gl";
+import { Capacitor, Plugins, CallbackID } from "@capacitor/core";
+import {GooglemapsComponent} from "../googlemaps/googlemaps.component";
 
-const {Goelocation}=Plugins;
+
+//agregar el paquete de mapas
+
+const { Geolocation} = Plugins;
 declare var google:any;
 @Component({
   selector: 'app-mapacoordenadas',
@@ -20,92 +23,35 @@ export class MapacoordenadasPage implements OnInit {
     lat:-3.324234,
     lng:45.347835
   }
-  label={
-    titulo:"Mi ubicacion",
-    subtitulo:" mi ubicacion inicial"
+
+  // @ts-ignore
+
+  constructor(public modalController:ModalController) {
+
   }
-  map:any;
-  marker:any;
-  infowindow:any;
-  positionSet:any;
-  @ViewChild('map')
-  divMap:any ;
-  constructor(
-    private renderer:Renderer2,
-    @Inject(DOCUMENT) private document,
-    private googlemapsService:MapaserviceService,
-    public modalController: ModalController
-  ) { }
 
   ngOnInit() {
-    this.init();
   }
-  async init(){
-    this.googlemapsService.init(this.renderer,this.document).then(()=>{
-      this.initMap();
-    }).catch((err)=>{
-      console.log(err)
-    })
-  }
-  ionViewDidEnter() {
-  }
-  initMap() {
-    const position=this.position
-    let latLng=new google.maps.LatLng(position.lat,position.lng)
-    let mapOptions={
-      center:latLng,
-      zoom:14,
-      disableDefaultUI:true,
-      clickableIcons:false
+
+  async cargarmapa() {
+    let position={
+      lat:-3.324234,
+      lng:40.347835
     }
-    this.map=new google.maps.Map(this.divMap.nativeElement,mapOptions)
-    this.marker=new google.maps.Marker({
-      map:this.map,
-      animation:google.maps.animation.DROP,
-      draggable:true
-    });
-    this.clickHandleEvent();
-    this.infowindow=new google.maps.infowindow();
-    this.addMarker(position)
-    this.setInfoWindow(this.marker,this.label.titulo,this.label.subtitulo) // para mostrar un texto
-  }
-  clickHandleEvent() {
-    this.map.addListener('click',(event:any)=>{
-      const position={
-        lat:event.latLng.lat,
-        lng:event.latLng.lng
+    const modalAdd=await this.modalController.create(
+      {
+        component:GooglemapsComponent,
+        mode:'ios',
+        swipeToClose:true,
+        componentProps:{position:position}
       }
-      this.addMarker(position)
-    })
-  }
-  addMarker(position:any){
-    let latLng=new google.maps.LatLng(position.lat,position.lng)
-    this.marker.setPosition(latLng)
-    this.map.panTo(position)  //centrar el mapa en la posicion que se le asigne
-    this.positionSet=position // guardar la variable
-  }
-
-
-  private setInfoWindow(marker: any, titulo: string, subtitulo: string) {
-    
+    );
+    await modalAdd.present();
+    const {data}=await modalAdd.onWillDismiss();
+    if(data){
+      console.log('data=>',data)
+    }
   }
 }
-/*buildMap(){
-   this.mapa=mapboxgl.Map;
-   (mapboxgl as any).accessToken='pk.eyJ1IjoidmVyZnJ1dHBlcnUiLCJhIjoiY2wzNjRjdnlwMGMwejNrb3o4c2dzenB5ZyJ9.4bg-eMUfJTwhwJzLlfm7tw';
-   this.mapa=new mapboxgl.Map({
-     container:'map',
-     style:'mapbox://styles/mapbox/satellite-streets-v11',
-     center:[-80.5996031,-5.0672861],
-     zoom:15
-   });
-   this.mapa.addControl(new mapboxgl.NavigationControl());
 
-   const map = new mapboxgl.Map({
-     container: 'map', // container ID
-     style: 'mapbox://styles/mapbox/streets-v12', // style URL
-     center: [-74.5, 40], // starting position [lng, lat]
-     zoom: 9 // starting zoom
-   });
- }*/
 

@@ -5,6 +5,11 @@
 </ion-header>
 
 <ion-content>
+  <ion-breadcrumbs [maxItems]="2">
+    <ion-breadcrumb url="/" component="home">Home</ion-breadcrumb>
+    <ion-breadcrumb url="/app-bodegas" component="app-bodegase">Bodegas</ion-breadcrumb>
+    <ion-breadcrumb url="/bod-detalle" component="bod-detalle">DEtalle</ion-breadcrumb>
+  </ion-breadcrumbs>
   <ion-searchbar placeholder="Buscar Bodega" animated (ionChange)="seachBodega( $event)">
 <!--  <ion-searchbar placeholder="Buscar Bodega">-->
   </ion-searchbar>

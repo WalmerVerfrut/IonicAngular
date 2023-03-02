@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import {environment} from "../../environments/environment";
-
 declare var google:any;
 @Injectable({
   providedIn: 'root'
 })
-export class MapaserviceService {
-  apiKey="";
+export class GooglemapsService {
+
+
+  apiKey="AIzaSyAkmwrVF4j3mxlTo0v08zoCz4IYpU6iRlE";
   mapsLoaded=false;
 
   constructor() { }
@@ -31,11 +31,13 @@ export class MapaserviceService {
         return
       }
       if(this.apiKey){
-        script.src='https://maps.googleapis.com/maps/api/js?key='+this.apiKey+'&callback=initMap'
+        //script.src='https://maps.googleapis.com/maps/api/js?key='+this.apiKey+'&callback=initMap&v=weekly'
+        script.src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAkmwrVF4j3mxlTo0v08zoCz4IYpU6iRlE&callback=initMap&v=weekly'
       }else{
-        script.src='https://maps.googleapis.com/maps/api/js?&callback=mapInit';
+        script.src='https://maps.googleapis.com/maps/api/js?&callback=mapInit&v=weekly';
       }
       renderer.appendChild(document.body,script)
     })
   }
 }
+

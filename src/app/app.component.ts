@@ -11,6 +11,7 @@ export class AppComponent {
     { title: 'trabajdor', url: '/trabajador', icon: 'person-remove' },
     { title: 'Bodegas', url: '/bodegas', icon: 'hourglass' },
     { title: 'Coordenadas', url: '/mapacoordenadas', icon: 'map' },
+    { title: 'Barras', url: '/barras', icon: 'cod' },
   ];
   public labels = [];
   constructor(
@@ -24,5 +25,6 @@ export class AppComponent {
     });
     toast.present();
   }
+
 
 }

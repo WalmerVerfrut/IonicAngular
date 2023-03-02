@@ -3,7 +3,7 @@ import {ActivatedRoute} from "@angular/router";
 import {HttpClient} from "@angular/common/http";
 
 @Component({
-  selector: 'app-bod-detalle',
+  selector: 'bod-detalle',
   templateUrl: './bod-detalle.page.html',
   styleUrls: ['./bod-detalle.page.scss'],
 })

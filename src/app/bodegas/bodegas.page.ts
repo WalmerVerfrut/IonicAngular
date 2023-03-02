@@ -57,4 +57,5 @@ export class BodegasPage implements OnInit {
     this.seachBodega(event)
     event.target.complete();
   };
+
 }
